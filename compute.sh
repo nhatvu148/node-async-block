@@ -1,0 +1,1 @@
+while true; do date && curl -m 5 http://localhost:12458/compute-with-set-immediate && echo; sleep 1; done
